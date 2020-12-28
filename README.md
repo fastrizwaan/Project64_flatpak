@@ -20,4 +20,4 @@ git clone https://github.com/fastrizwaan/Project64_flatpak
 Project64_flatpak
 sh build.sh
 ```
-After build completes, target/\[flatpak-wine32\]Project64/ has the flatpak
+After build completes, `target/\[flatpak-wine32\]Project64/` has the flatpak
