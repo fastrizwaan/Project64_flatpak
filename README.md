@@ -21,3 +21,9 @@ Project64_flatpak
 sh build.sh
 ```
 After build completes, `target/\[flatpak-wine32\]Project64/` has the flatpak
+
+# Playing Nintendo 64 Games/ROM
+```
+Copy ROMs to ~/Games directory
+and Load the ROM from Project64 emulator
+```
