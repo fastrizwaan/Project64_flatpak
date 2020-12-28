@@ -1,4 +1,5 @@
 # Project64_flatpak
+![] (https://github.com/fastrizwaan/Project64_flatpak/blob/main/Project64_v164/icon.png)
 Finally, Project64 on Linux, without headaches.
 This flapak is Project64 version 1.6 created using flatpak-wine. It includes GLideN64.dll with which Project64 can go fullscreen without any issues on gnome-shell too.
 Nintendo 64 Games work smoothly at 60 fps. 
