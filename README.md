@@ -6,7 +6,7 @@ Project64 is most compatible and mature emulator than any Linux Nintendo64 emula
 
 Version 2 is there but it won't run, and there are other issues with settings.
 
-#Install existing Project64 1.6 flatpak
+# Install existing Project64 1.6 flatpak
 ```
 git clone https://github.com/fastrizwaan/Project64_flatpak
 cd Project64_flatpak
