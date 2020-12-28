@@ -1,0 +1,154 @@
+
+ROM Database (Project64.rdb) v1.6 (1st April 2005)
+Changes since v1.5.1 (11th June 2003)
+
+Renamed enteries for GoodN64 202a and added games for the not released yet 202b, plus a few settings change but nothing Major.
+
+
+ROM Database (Project64.rdb) v1.5.1 (11th June 2003)
+Changes since v1.5.01 (29th August 2002)
+
+
+Section A - Corrected ROM settings and status/notes
+
+Changes were made ONLY for the following games, and ONLY as described below:
+(any other compatibility changes you see are not the result of updating to this RDB!)
+
+Title				#ROMs	Type	 Details
+
+Blast Corps (U) (V1.1) 		1	[plugin] added missing uCode detect (426EA66D=0,map screen)
+Bust-a-Move series		5	[plugin] Issues(core)->Issues(plugin) - failure on load is not core
+Centre Court Tennis (E) 	1	[plugin] corrected resolution (force h240)
+Killer Instinct Gold		4	[plugin] added note about black sprites
+Kobe Bryant's NBA Courtside	2	[plugin] corrected status and plugin note (Needs Video Plugin->Compatible)
+Fox Sports College Hoops 99	1	[plugin] corrected resolution (forced h240) and added missing uCode detect
+Goemons Great Adventure 	?	[plugin] added note about graphics problems in water level and cave areas
+Hybrid Heaven			2	[core] changed SMCM to Protect (U & E), might prevent possible hang?
+Iggy's Reckin' Balls 		3	[plugin] added note about non-fatal AV (you can press ENTER twice to continue!)
+Kirby64 - The Crystal Shards 	3	[plugin] added note about HUD and miscellaneous errors, Compatible->Issues(plugin)
+Legend of Zelda, The - OoT 	7	[core]	 changed note to see GameFAQ (for subscreen delay fix codes)
+Mario Golf			3	[video] note about missing grid and slow
+Mario Party series		9	[plugin] add note to see GameFAQ for some details of mini-game problems
+Mickey's Speedway USA 		3	[plugin] added note to see GameFAQ (assumed broken on ATI-Radeon h/w)
+Mission Impossible (F) [!]	1	[core]	 seems to be a bad ROM (error in GoodN64?)
+Ogre Battle 64			2	[plugin] added note about black backgrounds in battle scenes (Compatible->Issues (plugin))
+Paper Mario			3	[plugin] added D3D Clear Mode (black layer inside house?) added notes
+Ready 2 Rumble Boxing 2 	1	[core] 	 Compatible->Uncertain - unstable?
+Resident Evil 2			2	[core] 	 CF1 to prevent freeze? edited note
+Roadsters (U)			1	[core]   CF2>CF1 (Region Issue>Compatible,high system requirement) SMCM PM>CMA
+Snowboard Kids			3	[plugin] added D3D clear mode and removed "[video] flicker (splitscreen)" note
+South Park Rally		2	[plugin] added note use v1.2 video plugin (Needs Video Plugin->Broken(plugin))
+Super Smash Bros.		4	[plugin] added note about minor errors
+Tom & Jerry			2	[core]	 added "see GameFAQ" (workaround for freeze on character select screen)
+Tony Hawk's Pro Skater series 	5	[plugin] added note about possible graphics missing letter 'E's
+Turok 2 - Seeds of Evil 	5	[plugin] added missing uCode detect (49571B97=8,map)
+Fox Sports College Hoops '99	1	[plugin] added missing uCode detect (56D032C9=8,unavoidable), corrected resolution (forced h240)
+Wipeout				2	[core] 	 CF1 to prevent freeze near end of game. why was i forcing height 242?
+Wipeout (E)			1	[core] hangs after race? (Compatible->Region issue) [plugin] added missing uCode detect (EBD45CC3=0,ship explosion)
+Worms				2	[plugin] Issues(core)->Issues(plugin) - failure on load is not core
+WWF No Mercy			3	[plugin] added note about missing text in bubbles
+
+
+ROMs with status still undetermined:
+
+Dobutsu No Mori			1	crash when re-entering house? changed status to uncertain, SMCM to Protect
+Disney's Tarzan			4	stability uncertain	
+Ready 2 Rumble Boxing r2	1	stability uncertain
+
+=============================================================================================================================
+
+
+Section B - Changes made keep the RDB in sync with GoodN64
+
+New Entries
+ROMs that were not in GoodN64 0997, are in 0999a, and had no entry in the old RDB:
+	Hexen (G)
+	J. League Live 64 (J)
+	Les Razmoket - La Chasse Aux Tresors (F)
+	Nushi Zuri 64 - Shiokaze ni Notte (J)
+	Pokemon Snap (E)
+	Turok 2 - Seeds of Evil - Kiosk (E)
+	Waialae Country Club-True Golf Classics (E) (V1.1) (M4)
+
+ROMs that were not in 0997, are in 0999a, but had an assumed entry in the old RDB:
+(i guessed the names right, so no change other than removing "not in GoodN64")
+	Tony Hawk's Pro Skater 3 (U)
+	Pokemon Stadium 2 (F)
+	Bomberman 64 - Arcade Edition (J)
+
+ROMs that are not in GoodN64 0999a (Good Name is *assumed* as follows):					
+	[1D4136F3-AF63EEA9-C:45]	Legend of Zelda, The - Ocarina of Time Master Quest (?)
+	[BA780BA0-0F21DB34-C:45]	Star Fox 64 (U) (V1.1)
+
+ROMs removed from the RDB:
+	[665F09DD-FC3BAC53-C:50]	Turok - Dinosaur Hunter (E) (V1.0) [b1] (previously "[a1]")
+
+
+ROMs that are IMHO *probably* bad even though GoodN64 marks them [!]:
+	Silicon Valley (F)	(doesn't start)
+	Mission Impossible (F)	(hangs where it shouldn't)
+	Nushi Zuri 64 (J)	(doesn't start)
+
+
+Good->Good
+ROMS that have just had name changes. "N:" denotes new name, "O:" denotes old name:
+
+the following ROMs just had multilanguage tags added (for example "M4" means 4 languages)
+these were not added to the RDB, because i'm told the tags may be removed in a future version of Goodn64
+	N: "AeroGauge (E) (M3) [!]"  O: "AeroGauge (E) [!]"
+	N: "All Star Tennis '99 (E) (M5) [!]"  O: "All Star Tennis '99 (E) [!]"
+	N: "Batman of the Future - Return of the Joker (E) (M3) [!]"  O: "Batman Beyond - Return of the Joker (E) [!]"
+	N: "BattleTanx - Global Assault (E) (M3) [!]"  O: "BattleTanx - Global Assault (E) [!]"
+	N: "Diddy Kong Racing (E) (M2) (V1.0) [!]"  O: "Diddy Kong Racing (E) (V1.0) [!]"
+	N: "Diddy Kong Racing (E) (M2) (V1.1) [!]"  O: "Diddy Kong Racing (E) (V1.1) [!]"
+	N: "Diddy Kong Racing (U) (M2) (V1.0) [!]"  O: "Diddy Kong Racing (U) (V1.0) [!]"
+	N: "Diddy Kong Racing (U) (M2) (V1.1) [!]"  O: "Diddy Kong Racing (U) (V1.1) [!]"
+	N: "FIFA Soccer 64 (E) (M3) [!]"  O: "FIFA Soccer 64 (E) [!]"
+	N: "FIFA Soccer 64 (U) (M3) [!]"  O: "FIFA Soccer 64 (U) [!]"
+	N: "John Romero's Daikatana (E) (M3) [!]"  O: "John Romero's Daikatana (E) [!]"
+	N: "PGA European Tour (E) (M5) [!]"  O: "PGA European Tour (E) [!]"
+	N: "Pilotwings 64 (E) (M3) [!]"  O: "Pilotwings 64 (E) [!]"
+	N: "Starshot - Space Circus Fever (E) (M3) [!]"  O: "Starshot - Space Circus Fever (E) [!]"
+	N: "Superman (E) (M6) [!]"  O: "Superman (E) [!]"
+	N: "Superman (U) (M3) [!]"  O: "Superman (U) [!]"
+	N: "Tigger's Honey Hunt (E) (M7) [!]"  O: "Tigger's Honey Hunt (E) [!]"
+
+the following ROMs have other types of name changes - these *were* renamed in the RDB
+	N: "Carmageddon 64 (G) (M4) [!]"  O: "Carmageddon 64 (E) (censored) [!]"
+	N: "Carmageddon 64 (E) (M4) [!]"  O: "Carmageddon 64 (E) (uncensored) [!]"
+	N: "Clay Fighter 63 1-3 (U) (beta) [!]"  O: "Clay Fighter (beta) (U) [!]"
+	N: "Hiro no Ken Twin (J) [!]"  O: "Flying Dragon Fighters (Hiro no Ken Twin) (J) [!]"
+	N: "Human Grand Prix - New Generation (J) [!]"  O: "Human Grand Prix (J) [!]"
+	N: "Legend of Zelda, The - Majora's Mask (E) (M4) [!]"  O: "Legend of Zelda 2, The - Majora's Mask (E) (M4) [!]"
+	N: "Legend of Zelda, The - Majora's Mask (U) [!]"  O: "Legend of Zelda 2, The - Majora's Mask (U) [!]"
+	N: "Paper Mario (E) (M4) [!]"  O: "Paper Mario (G) [!]"
+	N: "Pokemon Stadium - Kiosk (U) (V1.1) [!]"  O: "Pokemon Stadium - Kiosk (U) [!]"
+	N: "Robotech - Crystal Dreams (U) (beta) [a1]"  O: "Robotech - Crystal Dreams (PD) [!]"
+	N: "Tonic Trouble (U) (V1.1) [!]"  O: "Tonic Trouble (U) [!]"
+	N: "Waialae Country Club-True Golf Classics (E) (V1.0) (M4) [!]"  O: "Waialae Country Club - True Golf Classics (E) [!]"
+	N: "Waialae Country Club-True Golf Classics (U) [!]"  O: "Waialae Country Club - True Golf Classics (U) [!]"
+	N: "Zelda no Densetsu - Mujura no Kamen (J) [!]"  O: "Zelda no Densetsu 2 - Mujura no Kamen (J) [!]"
+
+
+Good->Bad
+ROMs that were "good" in 0997 but are now bad in 0999a
+	N: "Bomberman Hero (J) [o1]"  O: "Bomberman Hero (J) [!]"
+	N: "Holy Magic Century (E) [b1]"  O: "Holy Magic Century (E) [!]"
+*	N: "Turok - Dinosaur Hunter (E) (V1.0) [b1]"  O: "Turok - Dinosaur Hunter (E) (V1.0) [a1]"
+	N: "Yoshi's Story (E) [b2]"  O: "Yoshi's Story (E) [!]"
+
+*this was the only entry actually removed. the others share header CRCs with their good counterparts.
+>> This is why it's important to rescan your ROMs with the newest GoodN64! <<
+
+
+Bad->Good
+ROMs that are now good but were not (or different) before:
+	N: "Holy Magic Century (E) [!]"  O: "Holy Magic Century (E) [a1]"
+	N: "J. League Live 64 (J) [!]"  O: "J. League Live 64 (J) [a1]"
+
+
+
+Thanks for reading,
+Smiff
+
+//EOF
