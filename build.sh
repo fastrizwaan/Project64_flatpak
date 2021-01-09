@@ -1,7 +1,7 @@
 # build project64 flapak
 
 # Needs flathub and sdk
-flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
+flatpak --user remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 flatpak install --user flathub org.freedesktop.Platform/i386/18.08 org.freedesktop.Sdk/i386/18.08 -y
 
 # Now Get git repo
