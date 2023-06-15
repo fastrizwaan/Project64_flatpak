@@ -1,3 +1,5 @@
+### This is Abandoned, Please use https://github.com/fastrizwaan/flatpak-wine for this. see video https://www.youtube.com/watch?v=uEXAsEjaD40
+
 # Project64_flatpak
 ![](https://github.com/fastrizwaan/Project64_flatpak/blob/main/Project64_v164/icon.png)
 Finally, Project64 on Linux, without headaches.
